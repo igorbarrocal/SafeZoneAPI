@@ -15,7 +15,7 @@ namespace SafeZoneApi.Controllers
         {
             _regiaoService = regiaoService;
         }
-
+        // GET: api/Regiaos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RegiaoDTO>>> GetAll()
         {
@@ -47,7 +47,7 @@ namespace SafeZoneApi.Controllers
 
             return Ok(regiaoDto);
         }
-
+        // POST: api/Regiao
         [HttpPost]
         public async Task<ActionResult<RegiaoDTO>> Create(RegiaoCreateDTO regiaoCreateDto)
         {
@@ -62,7 +62,7 @@ namespace SafeZoneApi.Controllers
 
             return CreatedAtAction(nameof(GetById), new { id = regiao.Id }, regiaoDto);
         }
-
+        // PUT: api/Regiao/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, RegiaoCreateDTO regiaoUpdateDto)
         {
@@ -73,7 +73,7 @@ namespace SafeZoneApi.Controllers
 
             return NoContent();
         }
-
+        // DELETE: api/Regiao/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
