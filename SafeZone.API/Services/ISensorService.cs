@@ -8,7 +8,6 @@ namespace SafeZoneApi.Services
         Task<IEnumerable<Sensor>> GetAllAsync();
         Task<Sensor?> GetByIdAsync(int id);
 
-        // Agora CreateAsync recebe SensorCreateDTO
         Task<Sensor> CreateAsync(SensorCreateDTO dto);
 
         Task UpdateAsync(Sensor sensor);

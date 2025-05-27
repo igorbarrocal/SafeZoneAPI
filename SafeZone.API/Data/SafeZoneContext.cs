@@ -17,13 +17,12 @@ namespace SafeZoneApi.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configuração de Regiao (confirme se precisa ajustar aqui depois)
+            
             modelBuilder.Entity<Regiao>(entity =>
             {
                 entity.HasKey(r => r.Id);
 
-                // Se não existir campo _id em Regiao, remova essa linha:
-                // entity.Property(r => r.Id).HasField("_id").ValueGeneratedOnAdd();
+               
 
                 entity.Property(r => r.Nome)
                     .IsRequired()
@@ -38,12 +37,12 @@ namespace SafeZoneApi.Data
                     .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // Configuração de Sensor
+          
             modelBuilder.Entity<Sensor>(entity =>
             {
                 entity.HasKey(s => s.Id);
 
-                // Removido .HasField("_id") porque não existe campo _id na classe Sensor
+                
                 entity.Property(s => s.Id)
                     .ValueGeneratedOnAdd();
 

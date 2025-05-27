@@ -28,7 +28,7 @@ namespace SafeZoneApi.Services
                 .FirstOrDefaultAsync(s => s.Id == id);
         }
 
-        // Alterado para receber SensorCreateDTO e criar a entidade internamente
+        
         public async Task<Sensor> CreateAsync(SensorCreateDTO dto)
         {
             var regiao = await _context.Regioes.FindAsync(dto.RegiaoId);

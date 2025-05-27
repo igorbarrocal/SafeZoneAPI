@@ -11,7 +11,7 @@ using SafeZoneApi.Data;
 namespace SafeZone.API.Migrations
 {
     [DbContext(typeof(SafeZoneContext))]
-    [Migration("20250527123801_InitialCreate")]
+    [Migration("20250527124423_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
