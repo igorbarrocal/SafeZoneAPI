@@ -1,7 +1,7 @@
 # SafeZone API 🚨
 
 API RESTful desenvolvida em **ASP.NET Core 8**, utilizando **Entity Framework Core** com banco de dados **Oracle**.  
-A SafeZone API permite o cadastro e gerenciamento de **regiões monitoradas** e **sensores** voltados à segurança de motociclistas.
+A SafeZone API permite o cadastro e gerenciamento de **regiões monitoradas** e **sensores** voltados à segurança.
 
 Conta com documentação interativa via **Swagger** para facilitar testes e integração com front-ends ou sistemas parceiros.
 
