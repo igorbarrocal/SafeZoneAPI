@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "SafeZone API",
         Version = "v1",
-        Description = "API de "
+        Description = "API depermite o cadastro e gerenciamento de regiões monitoradas e sensores voltados à segurança. "
     });
 });
 
