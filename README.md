@@ -6,6 +6,14 @@ A SafeZone API permite o cadastro e gerenciamento de **regiões monitoradas** e 
 Conta com documentação interativa via **Swagger** para facilitar testes e integração com front-ends ou sistemas parceiros.
 
 ---
+🖥️ Desenvolvido por
+InnovexGroup :
+
+Cauan da Cruz Ferreira – RM: 558238, Turma: 2TDSPK
+Igor Dias Barrocal – RM: 555217, Turma: 2TDSPK
+Renan Dorneles – RM: 557820, Turma: 2TDSPK
+
+---
 
 ## 📌 Tecnologias Utilizadas
 
@@ -64,3 +72,4 @@ Conta com documentação interativa via **Swagger** para facilitar testes e inte
 ```bash
 git clone https://github.com/igorbarrocal/SafeZoneAPI.git
 cd SafeZoneAPI
+
